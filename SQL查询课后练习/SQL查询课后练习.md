@@ -113,7 +113,7 @@ INSERT INTO `accquaintance` VALUES ('123', '456', 'drink');
 ```
 
 题目二：  
-找出互不认识的人  
+1. 找出互不认识的人  
 ```
 with ac as 
 (select distinct friend from 
@@ -125,21 +125,21 @@ and not exists(select * from accquaintance where accquaintance.friend2 = ac1.fri
 ```  
 ![image](https://github.com/shawn2529/DatebasePrinciple/blob/master/SQL查询课后练习/找出互不认识的人.PNG)  
   
-找出只在一个类别里出现的人  
+2. 找出只在一个类别里出现的人  
 ```
 with ac as (select friend1 from accquaintance union distinct select friend2 from accquaintance)
 select ac.friend1 from ac where (select count(distinct class) from accquaintance where accquaintance.friend1 = ac.friend1 or accquaintance.friend2 = ac.friend1) = 1
 ```
 ![image](https://github.com/shawn2529/DatebasePrinciple/blob/master/SQL查询课后练习/找出只在一个类别里出现的人.PNG)  
   
-找出所有类别里都有朋友的人  
+3. 找出所有类别里都有朋友的人  
 ```
 with ac as (select friend1 from accquaintance union distinct select friend2 from  accquaintance)
 select ac.friend1 from ac where (select count(distinct class) from accquaintance where accquaintance.friend1 = ac.friend1 or accquaintance.friend2 = ac.friend1) = 3
 ```
 ![image](https://github.com/shawn2529/DatebasePrinciple/blob/master/SQL查询课后练习/找出所有类别里都有朋友的人.PNG)  
   
-找出每个类别里面朋友最多的人  
+4. 找出每个类别里面朋友最多的人  
 ```
 with ac as 
 (select distinct friend from 
@@ -153,8 +153,8 @@ select na friend,cc class from ccc group by cc
 ```
 ![image](https://github.com/shawn2529/DatebasePrinciple/blob/master/SQL查询课后练习/找出每个类别里面朋友最多的人.PNG)  
   
-找出在同一类别里面通过朋友而结识的其他朋友（朋友的朋友也是朋友）  
+5. 找出在同一类别里面通过朋友而结识的其他朋友（朋友的朋友也是朋友）  
   
-找出这样的人，通过他而结识的朋友对最多(p1和p2原本不相识，他们通过p3结识，那么p3的连接度为1，找出连接度最高的人)  
+6. 找出这样的人，通过他而结识的朋友对最多(p1和p2原本不相识，他们通过p3结识，那么p3的连接度为1，找出连接度最高的人)  
   
-找出臭味相投的朋友，他们在所出现的所有类别里面都是朋友（并且不能有这种情况，其中一个在某个类别里出现而另外一个不出现）  
+7. 找出臭味相投的朋友，他们在所出现的所有类别里面都是朋友（并且不能有这种情况，其中一个在某个类别里出现而另外一个不出现）  
