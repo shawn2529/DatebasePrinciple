@@ -7,6 +7,7 @@
 SQL语句执行过程截图如下：  
 ![image](https://github.com/shawn2529/DatebasePrinciple/blob/master/可编程SQL练习/SQL语句执行过程.PNG)  
   
+SQL语句如下：
 ```
 delimiter $$
 create procedure delete_five_student(in iid int,out result_s varchar(255))
