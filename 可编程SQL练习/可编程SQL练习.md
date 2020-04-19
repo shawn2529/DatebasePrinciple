@@ -1,12 +1,12 @@
-原数数据截图如下：
-![image](https://github.com/shawn2529/DatebasePrinciple/blob/master/可编程SQL练习/原始数据.PNG)
-
-执行结果截图如下：
-![image](https://github.com/shawn2529/DatebasePrinciple/blob/master/可编程SQL练习/执行结果.PNG)
-
-SQL语句执行过程截图如下：
-![image](https://github.com/shawn2529/DatebasePrinciple/blob/master/可编程SQL练习/SQL语句执行过程.PNG)
-
+原数数据截图如下：  
+![image](https://github.com/shawn2529/DatebasePrinciple/blob/master/可编程SQL练习/原始数据.PNG)  
+  
+执行结果截图如下：  
+![image](https://github.com/shawn2529/DatebasePrinciple/blob/master/可编程SQL练习/执行结果.PNG)  
+  
+SQL语句执行过程截图如下：  
+![image](https://github.com/shawn2529/DatebasePrinciple/blob/master/可编程SQL练习/SQL语句执行过程.PNG)  
+  
 ```
 delimiter $$
 create procedure delete_five_student(in iid int,out result_s varchar(255))
