@@ -10,7 +10,7 @@ http://ftp.drupal.org/files/translations/8.x/drupal/drupal-8.0.0-beta12.zh-hans.
   
 参考资料：https://www.zhi12.cn/node/8901
   
-#### 安装php管理工具composer  
+#### 二、安装php管理工具composer  
 7. 访问composer网站，下载Composer-Setup.exe文件。  
 https://getcomposer.org/download/  
 8. 安装composer，注意php.exe文件的位置是C:\xampp\php。  
