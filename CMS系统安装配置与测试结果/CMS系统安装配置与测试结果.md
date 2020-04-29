@@ -15,8 +15,8 @@ http://ftp.drupal.org/files/translations/8.x/drupal/drupal-8.0.0-beta12.zh-hans.
 https://getcomposer.org/download/  
 8. 安装composer，注意php.exe文件的位置是C:\xampp\php。  
 9. 打开cmd，使用composer命令验证是否安装成功。  
-10. 使用composer install命令下载和安装资源。  
 ![image](https://github.com/shawn2529/DatebasePrinciple/blob/master/CMS系统安装配置与测试结果/composer1.PNG)  
+10. 使用composer install命令下载和安装资源。  
 ![image](https://github.com/shawn2529/DatebasePrinciple/blob/master/CMS系统安装配置与测试结果/composer2.PNG)  
 ![image](https://github.com/shawn2529/DatebasePrinciple/blob/master/CMS系统安装配置与测试结果/composer3.PNG)  
   
