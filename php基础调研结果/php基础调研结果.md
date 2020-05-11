@@ -14,7 +14,7 @@ PHP代码是在服务器端被执行的。用户访问一个包含PHP代码的�
 PHP的代码块PHP代码是可以嵌入到HTML文件中的，经常可以在HTML文件中看到散落在各处的PHP代码块。PHP会忽略两个PHP代码块之间HTML代码。  
 
 >参考资料：  
-https://blog.csdn.net/risingsun001/article/details/22888861
+https://blog.csdn.net/risingsun001/article/details/22888861  
 https://blog.csdn.net/fojiedidai/article/details/78611896
 
 二、目前常用的服务器软件有哪些  
