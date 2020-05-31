@@ -1,11 +1,11 @@
 #### 题目一  
-###### 完成Apache/Nginx + MySQL + PHP基础开发环境的准备工作  
+#### 完成Apache/Nginx + MySQL + PHP基础开发环境的准备工作  
 
 apache使用集成环境xampp的默认配置，将项目新建至C:\xampp\htdocs文件夹。  
 ![image](https://github.com/shawn2529/DatebasePrinciple/blob/master/php开发调试准备/项目代码.PNG)
 
 #### 题目二  
-###### 完成PHP调试工具的安装、配置和使用  
+#### 完成PHP调试工具的安装、配置和使用  
 
 一、安装调试工具Xdebug  
 1. 访问Xdebug网站，按照指示输入php信息（使用命令行php -i即可获取信息），下载php_xdebug-2.9.5-7.3-vc15-x86_64.dll文件。  
@@ -56,7 +56,7 @@ https://www.jetbrains.com/zh-cn/phpstorm/buy/#discounts?billing=yearly
 
 ![image](https://github.com/shawn2529/DatebasePrinciple/blob/master/php开发调试准备/测试结果.PNG)
 
-###### 复习并练习使用编程语言访问数据库，并将运行结果在网页中展现出来  
+#### 复习并练习使用编程语言访问数据库，并将运行结果在网页中展现出来  
 
 ```
 <!DOCTYPE html>
@@ -113,7 +113,7 @@ https://blog.csdn.net/weixin_30745553/article/details/95545875?ops_request_misc=
 https://blog.csdn.net/qq_32631847/article/details/82054011  
 
 #### 题目三  
-###### 安装、调试并使用PHP/Python的一种ORM框架的使用，并编写自己的测试案例与代码  
+#### 安装、调试并使用PHP/Python的一种ORM框架的使用，并编写自己的测试案例与代码  
 
 
 >参考资料：
