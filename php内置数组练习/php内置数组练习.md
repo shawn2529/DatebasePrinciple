@@ -1,4 +1,4 @@
-一、PHP中提供了哪些内置数组，各代表什么意思？自己编码实验
+#### 一、PHP中提供了哪些内置数组，各代表什么意思？自己编码实验
 
 | 数组 | 作用 |
 | :-----| :----- |
@@ -39,13 +39,13 @@
 你上传的文件是<?php echo $_FILES["file"]["name"]; ?>。
 ```
 
-测试结果如下：
+测试结果如下：  
 ![image](https://github.com/shawn2529/DatebasePrinciple/blob/master/php内置数组练习/测试结果1.PNG)  
 
 ![image](https://github.com/shawn2529/DatebasePrinciple/blob/master/php内置数组练习/测试结果2.PNG)  
 
-二、PHP中实现网页间数据传递，可以使用哪几种方法？自己编码实验
-1. $\_POST传值  
+#### 二、PHP中实现网页间数据传递，可以使用哪几种方法？自己编码实验
+###### 1. $\_POST传值  
 $\_POST传值是用于html的\<form>表单跳转的方法，例如：  
 ```
 <html>
@@ -67,7 +67,7 @@ $b=$_POST['name2'];
 ?>
 ```
 
-2. $\_GET传值
+###### 2. $\_GET传值  
 $\_GET传值是通过跟随url传递的，在页面跳转时，跟着url跳转。常用于\<a>标签的使用。  
 
 测试代码如下：  
@@ -77,7 +77,7 @@ $\_GET传值是通过跟随url传递的，在页面跳转时，跟着url跳转�
 
 跳转进入xxx.php后，就能通过$\_GET['id']获取传递的值。GET方法常用于url的目的是删除或读取某个id的php文件。
 
-3. $\_SESSION传值
+###### 3. $\_SESSION传值  
 $\_SESSION是全局变量的一种，经常用于用户登陆后保存用户id之类的常用数据。一旦保存到SESSION中，其他页面都可以通过SESSION获取，SESSION的使用要开启session。  
 
 测试代码如下：
@@ -98,9 +98,8 @@ $\_SESSION是全局变量的一种，经常用于用户登陆后保存用户id�
 
 >参考资料：https://blog.csdn.net/u010865136/article/details/43667757
 
-三、PHP中Cookie和Session都可以实现用户登陆，他们有什么区别？自己编码实验（不能照抄课件代码）
-菜鸟教程
-1. Cookie实现用户登录
+#### 三、PHP中Cookie和Session都可以实现用户登陆，他们有什么区别？自己编码实验（不能照抄课件代码）
+###### 1. Cookie实现用户登录
 
 登录页面代码如下：
 ```<?php
@@ -137,7 +136,7 @@ echo  "亲爱的".$_COOKIE["username"]."，您已登陆。";
 
 ![image](https://github.com/shawn2529/DatebasePrinciple/blob/master/php内置数组练习/cookie登陆成功页面.PNG)  
 
-2. Session实现用户登录
+###### 2. Session实现用户登录
 
 登录页面代码如下：
 ```
@@ -176,7 +175,7 @@ echo  "亲爱的".$_SESSION["username"]."，您已登陆。";
 
 ![image](https://github.com/shawn2529/DatebasePrinciple/blob/master/php内置数组练习/session登陆成功页面.PNG)  
 
-四、PHP中我们可以通过内置数组获取哪些服务器信息，如何获取？自己编码实验
+#### 四、PHP中我们可以通过内置数组获取哪些服务器信息，如何获取？自己编码实验
 
 测试代码如下：
 ```
