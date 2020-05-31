@@ -106,7 +106,7 @@ echo "<center>";
 ```
 ![image](https://github.com/shawn2529/DatebasePrinciple/blob/master/数据库服务端与编程语言连接测试结果/使用php连接MariaDB方法一.PNG)
 
-参考资料：
+>参考资料：  
 http://www.cnplugins.com/devtool/xdebug-helper/  
 https://www.cnblogs.com/baocheng/p/5775938.html  
 https://blog.csdn.net/weixin_30745553/article/details/95545875?ops_request_misc=&request_id=&biz_id=102&utm_term=phpstorm%20xdebug%20chrome&utm_medium=distribute.pc_search_result.none-task-blog-2~all~sobaiduweb~default-1-95545875  
